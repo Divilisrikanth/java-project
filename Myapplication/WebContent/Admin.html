@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: background;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: aqua;
+}
+</style>
+</head>
+<title>
+Admin
+</title>
+<body background="img.jpg">
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="Admin.html">Admin</a>
+  <a href="Employ.html">Employ</a>
+ 
+  
+</div>
+    <div>
+        
+        <form name="f1" method="post" action="Adminlogin">
+            <table align="center" border="1">
+                <caption><h1>Admin Login</h1></caption>
+                <tr><td>Admin Username</td><td><input type="text" name="username"></td></tr>
+                <tr><td>Admin Password</td><td><input type="password" name="password"></td></tr>
+                <tr><td colspan="2" align="center"><input type="submit" value="Login"></td></tr>
+                
+            </table>
+        </form>
+    </div>    
+</body>
+</html>

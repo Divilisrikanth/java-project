@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>
+Password Update
+</title>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+div.scrollmenu {
+  background-color: background;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: aqua;
+}
+</style>
+</head>
+
+<body background="img.jpg">
+
+<div class="scrollmenu">
+    <a href="AdminHome.html">Home</a>
+    <a href="insert.html">Add Employ</a>
+    <a href="update.html">Update Employ</a>
+    <a href="delete.html">Delete Employ</a>
+    <a href="DisplayServlet">Display Employ</a>
+    <a href="index.html">Logout</a>
+  
+</div>
+        <form method="post" action="Employupdate">
+        <table align="center">
+            
+            <caption><h1>Employ Management System</h1></caption>
+            <tr><td>Old password</td><td><input type="password" name="password"></td></tr>
+            <tr><td colspan="2" align="center"><input type="submit" value="update"></td></tr>
+        </table>
+        </form>
+</body>
+</html>

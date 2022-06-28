@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>
+UserLogin 
+</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: background;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: aqua;
+}
+</style>
+</head>
+
+<body background="img.jpg">
+
+<div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="AdminLogin.html">Admin Login</a>
+  <a href="UserLogin.html">User Login</a>
+  
+  
+</div>
+    <div>
+        
+        <form name="f1" method="post" action="servlet2">
+            <table align="center" border="1">
+                <caption><h1>User Login</h1></caption>
+                <tr><td>Username</td><td><input type="text" name="username"></td></tr>
+                <tr><td>Password</td><td><input type="password" name="password"></td></tr>
+                <tr><td colspan="2" align="center"><input type="submit" value="Sign in"></td></tr>
+            </table>
+        </form>
+    </div>    
+</body>
+</html>

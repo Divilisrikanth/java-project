@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.scrollmenu {
+  background-color: background;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: aqua;
+}
+</style>
+</head>
+<title>
+Insert
+</title>
+<body background="img.jpg">
+
+<div class="scrollmenu">
+    <a href="AdminHome.html">Home</a>
+    <a href="insert.html">Add Employ</a>
+    <a href="update.html">Update Employ</a>
+    <a href="delete.html">Delete Employ</a>
+    <a href="DisplayServlet">Display Employ</a>
+    <a href="index.html">Logout</a>
+  
+</div>
+        <form method="post" action="Insertservlet">
+        <table align="center">
+            
+            <caption><h1>Employ Management System</h1></caption>
+            <tr><td>Emp No</td><td><input type="text" name="eno"></td></tr>
+            <tr><td>Emp Name</td><td><input type="text" name="ename"></td></tr>
+            <tr><td>Emp Salary</td><td><input type="text" name="esal"></td></tr>
+            <tr><td>Emp Email</td><td><input type="text" name="email"></td></tr>
+            <tr><td>Emp username</td><td><input type="text" name="username"></td></tr>
+            <tr><td>Emp password</td><td><input type="password" name="password"></td></tr>
+            <tr><td colspan="2" align="center"><input type="submit" value="insert"></td></tr>
+        </table>
+            </form>
+</html>
